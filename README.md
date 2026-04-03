@@ -2,8 +2,6 @@
 
 Integrating object detection with YOLO and Optical Character Recognition (OCR) using Tesseract. The goal is to identify specific regions in images (e.g., invoices) using YOLO and extract text from those regions using OCR. We'll go step by step, from setting up the environment to implementing the solution.
 
-
-![screenshot](yolo_ocr.png)
 ---
 
 ### Step 1: **Setting Up the Environment**
@@ -33,8 +31,7 @@ To start, ensure you have the necessary libraries and tools installed:
    pip install pytesseract
    ```
 
-4. **Install Tesseract OCR**:
-   Download and install Tesseract OCR from the [official repository](https://github.com/UB-Mannheim/tesseract/wiki) if you're on Windows, or use your package manager for Linux:
+4. **Install Tesseract OCR**
 
    ```bash
    sudo apt install tesseract-ocr  # For Ubuntu
